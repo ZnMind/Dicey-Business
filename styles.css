@@ -1,0 +1,10 @@
+.newDie {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 1em;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 100px;
+}
