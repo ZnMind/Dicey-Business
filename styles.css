@@ -1,10 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+.buttonDie {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: lightblue;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 5px 6px 0.5rem gray;
+}
+
 .newDie {
+    background-color: white;
     height: 100px;
     width: 100px;
     border: 1px solid black;
     float: left;
-    margin: 1em;
+    margin: 0.5em;
     text-align: center;
     border-radius: 20px;
     line-height: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 5px 6px 0.5rem gray;
 }
