@@ -18,6 +18,7 @@ button {
 }
 
 .newDie {
+    padding: 4px;
     background-color: white;
     height: 100px;
     width: 100px;
@@ -25,7 +26,7 @@ button {
     float: left;
     margin: 0.5em;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10%;
     line-height: 100px;
     font-size: x-large;
     font-weight: bolder;
@@ -36,4 +37,74 @@ button {
 
 .funky {
     background-color: lightblue;
+}
+
+.dice {  
+    padding: 10px;  
+    background-color: white;  
+    width: 88px;  
+    height: 88px;  
+    border-radius: 10%;
+}
+
+.dot {
+    display: block;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+       background-color: black;
+}
+
+.first-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-face {
+    display: flex;
+    justify-content : space-between;
+}
+
+.second-face .dot:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.third-face {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-face .dot:nth-of-type(2) {
+    align-self: center;
+}
+
+.third-face .dot:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+.fourth-face {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-face .column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fifth-face {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-face .column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fifth-face .column:nth-of-type(2) {
+    justify-content: center;
 }
