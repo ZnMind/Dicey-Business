@@ -101,12 +101,6 @@ class Die {
         }
     }
 
-    clear() {
-        Die.value = 0;
-        console.log(this.id);
-        return Die.value;
-    }
-
     funky() {
         if (toggle == 0) {
             toggle = 1;
